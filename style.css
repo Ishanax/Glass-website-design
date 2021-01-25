@@ -8,4 +8,41 @@ main {
   min-height: 100vh; /* take up full space of monitor */
   background: linear-gradient(to right top, #65dfc9, #6cdbeb); 
   /*will go diagonall*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.2));
+  min-height: 80vh;
+  width: 60%; /*the glass plate willtake up 60% of the screen */
+  border-radius: 1.5rem; 
+}
+
+.circle1,.circle2 {
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.95),
+  rgba(255, 255, 255, 0.1));
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  
+  opacity: 0.5;
+  backdrop-filter: blur(2rem);
+  
+}
+
+.circle1{
+  top: 7%;
+  left: 12%;
+
+}
+
+.circle2{
+  bottom: 15%;
+  right: 5%;
 }
