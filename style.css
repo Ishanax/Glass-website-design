@@ -14,35 +14,37 @@ main {
 }
 
 .glass {
+  background: white;
   background: linear-gradient(to right bottom,
-  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.7),
   rgba(255, 255, 255, 0.2));
   min-height: 80vh;
   width: 60%; /*the glass plate willtake up 60% of the screen */
-  border-radius: 1.5rem; 
+  border-radius: 2rem; 
+  z-index: 2;
+  backdrop-filter: blur(1rem);
+
+
 }
 
 .circle1,.circle2 {
+  background: white;
   background: linear-gradient(to right bottom,
-  rgba(255, 255, 255, 0.95),
-  rgba(255, 255, 255, 0.1));
+  rgba(255, 255, 255, 0.9),
+  rgba(255, 255, 255, 0.2));
   height: 10rem;
   width: 10rem;
   position: absolute;
-  border-radius: 50%;
-  
-  opacity: 0.5;
-  backdrop-filter: blur(2rem);
-  
+  border-radius: 50%;  
+  backdrop-filter: blur(1rem);
 }
 
 .circle1{
   top: 7%;
-  left: 12%;
-
+  right: 12%;
 }
 
 .circle2{
   bottom: 15%;
-  right: 5%;
+  left: 5%;
 }
