@@ -23,8 +23,6 @@ main {
   border-radius: 2rem; 
   z-index: 2;
   backdrop-filter: blur(1rem);
-
-
 }
 
 .circle1,.circle2 {
@@ -47,4 +45,9 @@ main {
 .circle2{
   bottom: 15%;
   left: 5%;
+}
+
+.linkIcons {
+  color: #51d2e6;
+  font-size: 3rem;
 }
