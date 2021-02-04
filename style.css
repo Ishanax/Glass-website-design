@@ -11,6 +11,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .glass {
@@ -54,8 +55,8 @@ main {
 }
 
 #glasses {
-  font-size: 3.5rem;
-  
+  font-size: 3.5rem; 
+  color: black !important; 
 }
 
 footer {
@@ -74,9 +75,32 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.7),
+  rgba(255, 255, 255, 0.2));
+  border-radius: 2rem;
+}
+.link{
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.link h2{
+  padding: 0rem 2rem;
 }
 
 .books{
   flex: 2;
+}
 
+.pro{
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
