@@ -101,6 +101,5 @@ footer {
   color: white;
   padding: 1rem;
   display: flex;
-  flex-direction: row;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  flex-direction: column;
 }
