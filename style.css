@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+test {
+  fail
+}
 main {
   min-height: 100vh; /* take up full space of monitor */
   background: linear-gradient(to right top, #65dfc9, #6cdbeb); 
