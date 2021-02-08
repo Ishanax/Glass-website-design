@@ -172,6 +172,17 @@ img {
   width: 100%;
   height: 25%;
   border-radius: 1rem;
+  position: relative;
 }
 
+/*pseudo element*/
+.progress::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(236,236,236);
+  position: absolute;
+  
+
+}
 
