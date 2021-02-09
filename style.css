@@ -11,7 +11,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -37,11 +37,13 @@ h3 {
 
 .glass {
   background: white;
-  background: linear-gradient(to right bottom,
-  rgba(255, 255, 255, 0.7),
-  rgba(255, 255, 255, 0.2));
-  min-height: 80vh;
+  height: 95vh;
   width: 60%; /*the glass plate willtake up 60% of the screen */
+  background: linear-gradient(
+    to right bottom,
+  rgba(255, 255, 255, 0.7),
+  rgba(255, 255, 255, 0.2)
+  );
   border-radius: 2rem; 
   z-index: 2;
   backdrop-filter: blur(1rem);
@@ -66,12 +68,12 @@ img {
 
 .circle1{
   top: 7%;
-  right: 12%;
+  right: 14%;
 }
 
 .circle2{
   bottom: 15%;
-  left: 5%;
+  left: 35%;
 }
 
 .linkIcons {
@@ -84,58 +86,48 @@ img {
   color: black !important; 
 }
 
-/*footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  background: #6cdbeb;
-} */
 
-.dashboard{
+.dashboard {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  background: linear-gradient(to right bottom,
-  rgba(255, 255, 255, 0.7),
-  rgba(255, 255, 255, 0.2));
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
   border-radius: 2rem;
 }
-.link{
+.link {
   display: flex;
   margin: 0.8rem 0rem;
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
   align-items: center;
 }
 
 .link h2{
-  padding: 0rem 2rem;
+  padding: 0rem 1rem;
 }
 
 .books{
   flex: 2;
 }
 
-.pro{
+.pro {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   border-radius: 2rem;
   color: white;
   padding: 1rem;
-  display: flex;
+  position: flex;
   flex-direction: column;
   font-weight: 600;
   width: 40%;
 }
 
 /* BOOKS */
-
-.status {
-  margin-bottom: 3rem;
-}
 
 .status input{
   background: linear-gradient(to right bottom,
