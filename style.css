@@ -37,7 +37,7 @@ h3 {
 
 .glass {
   background: white;
-  height: 95vh;
+  min-height: 80vh;
   width: 60%; /*the glass plate willtake up 60% of the screen */
   background: linear-gradient(
     to right bottom,
